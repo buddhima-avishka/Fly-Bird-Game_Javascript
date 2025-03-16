@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="Game.css">
 </head>
 
-<body  onload="flyAnimationStart();">
+<body  onload="flyAnimationStart();" onkeypress="keyCheck(event);">
 
   <!-- interface div start -->
   
@@ -21,7 +21,8 @@
 
     <!-- score div start -->
 
-    <img src="Images/Game Page/winter background.jpg" alt="background" class="background">
+    <!-- <img src="Images/Game Page/winter background.jpg" alt="background" class="background" id="background"> -->
+    <div class="background" id="background"></div>
     <img src="Images/Game Page/Fly Bird/1.png" alt="bird_pic" class="bird" id="bird">
     <img src="Images/Game Page/yellow-pipe.png" alt="yellow-pipe" class="yellow-pipe">
     <img src="Images/Game Page/green-pipe.png" alt="green-pipe" class="green-pipe">

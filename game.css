@@ -12,6 +12,7 @@ body{
 
 .background{
   /* position: absolute; */
+  background-image: url("Images/Game Page/winter background.jpg");
   z-index:0;
   left:0;
   top:0;
@@ -19,6 +20,7 @@ body{
   height:100%;
   background-size: cover;
   background-position: center;
+  background-repeat: repeat-x;
 }
 
 .bird{
